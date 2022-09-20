@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.flexButto {
+    display: flex;
+    justify-content: center;
+}
+
+ .butto {
+    background: #f51326;
+    outline: none;
+    cursor: pointer;
+    margin: 75px 0 0;
+    font-size: 30px;
+    font-family: 'Dangrek', cursive;
+    color: #000;
+    border-radius: 50%;
+ }
+
+ .butto:hover {
+    box-shadow: inset 5px 5px 2px #8c2121, inset -5px -5px 2px #f83b3b;
+ }
+
+.container {
+    margin: 12% 0px 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    font-family: 'Dangrek', cursive;
+    color:#000;
+}
+
+.letters {
+    font-size: 25px;
+    margin: 30px 0 0;
+}
